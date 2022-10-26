@@ -322,9 +322,10 @@ html {
 }
 
 body {
+  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  font-size: 1.4rem;
 }
 
 img {
