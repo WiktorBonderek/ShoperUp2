@@ -317,10 +317,14 @@ html, body {
   min-height: 100%;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 img {

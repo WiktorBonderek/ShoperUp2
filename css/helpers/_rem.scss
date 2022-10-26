@@ -1,0 +1,4 @@
+@mixin rem($remValue) {
+    font-size: #{$remValue}rem;
+    font-size: #{$remValue * $base-font-size}px;
+}
