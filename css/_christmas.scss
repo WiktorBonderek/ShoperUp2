@@ -1,2 +1,11 @@
 $color-bckg: #F5F4D7;
 $color-gray: #951F2B;
+
+.page-header__logo {
+    display: flex;
+}
+
+.page-header__logo::after {
+    content: url(https://i.ibb.co/WGbjjYX/tree.png);
+}
+
