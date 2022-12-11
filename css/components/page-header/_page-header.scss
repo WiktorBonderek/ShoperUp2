@@ -18,6 +18,10 @@
         }
     }
 
+    &__logo::after {
+        content: "Beta";
+    }
+
     &__search {
         display: none;
 
