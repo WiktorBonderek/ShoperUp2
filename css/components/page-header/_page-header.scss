@@ -3,6 +3,9 @@
     padding: 10px 0;
     background-color: $color-white;
     border-bottom: 1px solid $color-gray;
+    box-shadow: 0px 3px 15px 0px rgba(66, 68, 90, 1);
+    position: sticky;
+    top: 0;
 
     &__wrapper {
         display: flex;
@@ -19,7 +22,9 @@
     }
 
     &__logo::after {
-        content: "Beta";
+        content: 'BETA';
+        color: black;
+        text-decoration: none;
     }
 
     &__search {
